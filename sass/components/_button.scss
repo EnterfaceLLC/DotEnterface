@@ -1,0 +1,24 @@
+input[type="submit"],
+input[type="button"] {
+  background-color: $tertairy;
+  color: white;
+  font-size: 1rem;
+  border-color: none;
+  border-width: 0;
+  border-radius: 6px;
+  width: 5rem;
+  height: 2rem;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
+}
+
+.buttons {
+  text-align: center;
+
+  :hover {
+    opacity: 0.85;
+  }
+}
+
+.route {
+  margin-left: 10px;
+}

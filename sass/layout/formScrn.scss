@@ -1,0 +1,56 @@
+.yourProject {
+  /*background-color: rgba(0, 0, 0, 0.418);*/
+  width: 21.9rem;
+  height: 43.8rem;
+  margin-top: 20px;
+  z-index: 3;
+  display: none;
+  position: absolute;
+  overflow: auto;
+  font-family: "Roboto", sans-serif;
+  line-height: normal;
+
+  h1 {
+    text-align: center;
+    color: $primary;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .projectMsg {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    color: $primary;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  .considerMsg {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  li {
+    list-style-type: none;
+    font-size: 1rem;
+    line-height: 2rem;
+
+    i {
+      color: $tertairy;
+      font-size: 1.6rem;
+    }
+  }
+}

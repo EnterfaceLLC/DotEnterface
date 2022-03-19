@@ -1,0 +1,17 @@
+body {
+  margin: 0%;
+  background-image: radial-gradient(circle, $secondary, rgb(8, 8, 8));
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.red {
+  color: $tertairy;
+  font-weight: bold;
+}
+
+.grey {
+  color: $primary;
+  font-weight: 500;
+}

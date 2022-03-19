@@ -1,0 +1,30 @@
+.readMe {
+  z-index: 1;
+  width: 21.9rem;
+  height: 43.8rem;
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: absolute;
+  display: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  line-height: normal;
+  text-align: center;
+  overflow-y: auto;
+
+  .message {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  h2 {
+    color: $primary;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  .aboutUs {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

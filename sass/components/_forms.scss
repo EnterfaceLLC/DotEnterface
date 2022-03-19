@@ -1,0 +1,61 @@
+form {
+  /*background-color: rgb(18, 238, 117);*/
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 3rem;
+
+  .nameLine,
+  .emailLine,
+  .phoneLine {
+    font-weight: lighter;
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+
+  .msgLine {
+    text-align: right;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    border-color: none;
+    border-width: 0;
+    border-radius: 4px;
+    width: 75%;
+    line-height: 1.5rem;
+  }
+
+  textarea {
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    resize: none;
+  }
+
+  input[type="submit"],
+  input[type="button"] {
+    background-color: $tertairy;
+    color: white;
+    border-color: none;
+    border-width: 0;
+    border-radius: 6px;
+    width: 5rem;
+    height: 2rem;
+  }
+
+  ::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: black;
+  }
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: black;
+  }
+}

@@ -1,0 +1,39 @@
+.card {
+  perspective: 160rem;
+  -moz-perspective: 160rem;
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  margin: 0 auto;
+
+  &_side {
+    transition: all 0.8s ease;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15rem;
+    backface-visibility: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0.5rem 1rem rgba(#000, 0.4);
+
+    &--front {
+      background-image: url(../../Media/JPG/ZamFam.jpg);
+    }
+
+    &--back {
+      background-image: url(../../Media/JPG/bbparty.png);
+      transform: rotateY(180deg);
+    }
+  }
+
+  &:hover &_side--front {
+    transform: rotateY(180deg);
+  }
+
+  &:hover &_side--back {
+    transform: rotateY(0);
+  }
+}
